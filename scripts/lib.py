@@ -69,7 +69,7 @@ def test_classifier(classifier, test_x, test_y):
     """Test a classifier on the test_x data towards the test_y labels and print the classification report"""
     accuracy = classifier.score(test_x,test_y)
 
-    print("accuracy : ", accuracy)
+    print("Test accuracy : ", accuracy)
 
     predictions = classifier.predict(test_x)
 
